@@ -1,0 +1,15 @@
+\b()Controls:\n()
+W  = Up
+A  = Left
+S  = Down
+D  = Right
+
+P  = Pause
+M  = Toggle music
+F  = Show FPS [hold]
+R  = Start game
+F1 = Show / Hide help
+
+
+\b()Music:\n()
+TeknoAXE - Terminal Velocity Johnson \color(64,160,255)\ltmark()[link]\rbmark()\color(255,255,255)
