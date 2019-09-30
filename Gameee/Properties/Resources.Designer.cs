@@ -19,7 +19,7 @@ namespace Gameee.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -88,7 +88,7 @@ namespace Gameee.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Controls:
+        ///   Looks up a localized string similar to \b()Controls:\n()
         ///W  = Up
         ///A  = Left
         ///S  = Down
@@ -101,9 +101,8 @@ namespace Gameee.Properties {
         ///F1 = Show / Hide help
         ///
         ///
-        ///
-        ///
-        ///Music: TeknoAXE - Terminal Velocity Johnson [\link(http://teknoaxe.com/Link_Code_3.php?q=1041)].
+        ///\b()Music:\n()
+        ///TeknoAXE - Terminal Velocity Johnson \color(64,160,255)\ltmark()[link]\rbmark()\color(255,255,255).
         /// </summary>
         internal static string controls {
             get {
@@ -114,9 +113,9 @@ namespace Gameee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream Terminal_Velocity_Johnson {
+        internal static System.IO.UnmanagedMemoryStream ThresholdOfInsanity {
             get {
-                return ResourceManager.GetStream("Terminal_Velocity_Johnson", resourceCulture);
+                return ResourceManager.GetStream("ThresholdOfInsanity", resourceCulture);
             }
         }
     }

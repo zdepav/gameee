@@ -102,7 +102,7 @@
     <None Include="Resources\controls.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Terminal_Velocity_Johnson.wav" />
+    <None Include="Resources\ThresholdOfInsanity.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,15 +1,15 @@
 \b()Controls:\n()
-W  = Up
-A  = Left
-S  = Down
-D  = Right
+W   = Up
+A   = Left
+S   = Down
+D   = Right
 
-P  = Pause
-M  = Toggle music
-F  = Show FPS [hold]
-R  = Start game
-F1 = Show / Hide help
-
+P   = Pause
+M   = Toggle music
+F   = Show or Hide FPS
+R   = Start game
+F1  = Show or Hide help
+Esc = Exit game
 
 \b()Music:\n()
-TeknoAXE - Terminal Velocity Johnson \color(64,160,255)\ltmark()[link]\rbmark()\color(255,255,255)
+TeknoAXE - Threshold of Insanity \color(64,160,255)\ltmark()[link]\rbmark()\color(255,255,255)
