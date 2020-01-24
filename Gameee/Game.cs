@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -109,11 +109,15 @@ namespace Gameee {
                 if (Settings.Default.Highscore > 0)
                     scoreText += $"\nHighscore: {Settings.Default.Highscore,8}";
                 textRenderer.Draw(scoreText, 4, 4);
-                if (!paused && intervals.Count > 0 && Keyboard[Keys.F]) textRenderer.Draw($"{1000.0 / intervals.Average():F0} fps", 4, Height - 43);
                 if (!Running && blinkTimer < 500) textRenderer.Draw("Press R to start", 4, Height - 24);
                 if (paused) textRenderer.Draw("Paused", Width / 2 - 51, Height / 2 - 5);
-
-                if (showingFps) textRenderer.Draw($"{renderer.DrawnLineCount} lines", 4, Height - 62);
+                
+                if (!paused && showingFps) {
+                    if (intervals.Count > 0 ) {
+                        textRenderer.Draw($"{1000.0 / intervals.Average():F0} fps", 4, Height - 43);
+                    }
+                    textRenderer.Draw($"{renderer.DrawnLineCount} lines", 4, Height - 62);
+                }
             }
         }
 
